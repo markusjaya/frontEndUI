@@ -31,39 +31,30 @@
 <body>
 	<!-- Start header -->
 	<header class="top-navbar">
-
 		<nav class="navbar navbar-expand-lg navbar-light bg-light">
-
 			<div class="container">
-				<!--Logo-->
 				<a class="navbar-brand" href="index.html">
-					<img src="images/logo2.png" alt="logo"  />
+					<img src="images/logo2.png" alt="Image" height="80" width="180"/>
 				</a>
-
-				<!--navigation button-->
-			
-				<button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse"
-						data-target="#navbars-rs-food">
-						<span class="navbar-toggler-icon"></span>
+				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbars-rs-food" aria-controls="navbars-rs-food" aria-expanded="false" aria-label="Toggle navigation">
+				  <span class="navbar-toggler-icon"></span>
 				</button>
-
-
-				<div class="collapse navbar-collapse">
-					<ul class="navbar-nav ml-auto mr-3">
+				<div class="collapse navbar-collapse" id="navbars-rs-food">
+					<ul class="navbar-nav ml-auto">
 						<!--home-->
 						<li class="nav-item "><a class="nav-link active" href="index.html">Home</a></li>
 						<!--menu-->
-						<li class="nav-item "><a class="nav-link" href="menu.html">Menu</a></li>
+						<li class="nav-item "><a class="nav-link" href="menu.php">Menu</a></li>
 						<!--about-->
 						<li class="nav-item "><a class="nav-link" href="about.html">About</a></li>
-						<!--Reservasi-->
+						<!--Reservation-->
 						<li class="nav-item "><a class="nav-link" href="reservation.html">Reservasi</a></li>
 						<!--Order-->
-						<li class="nav-item "><a class="nav-link" href="order.php">Order</a></a></li>
+						<li class="nav-item "><a class="nav-link" href="order.php">Order</a></li>
 						<!--Contact-->
 						<li class="nav-item "><a class="nav-link" href="contact.html">Kontak</a></li>
+					</ul>
 				</div>
-
 			</div>
 		</nav>
 	</header>
